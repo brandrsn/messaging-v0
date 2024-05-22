@@ -1,14 +1,14 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { FaBell, FaGrid, FaUsers, FaBox, FaChartBar, FaCog } from "react-icons/fa";
-import MountainIcon from "@/components/icons/MountainIcon";
+import { FaMountain } from "react-icons/fa";
 
 export default function TopNavigation() {
   return (
     <header className="flex h-16 items-center justify-between border-b bg-white px-6 dark:border-gray-800 dark:bg-gray-950">
       <div className="flex items-center gap-4">
         <Link className="flex items-center gap-2" href="#">
-          <MountainIcon className="h-6 w-6" />
+          <FaMountain className="h-6 w-6" />
           <span className="text-lg font-bold">Acme SaaS</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
