@@ -1,4 +1,4 @@
-export default function Dashboard() {
+const Dashboard = () => {
   return (
     <div className="w-full p-4 h-full flex-1 flex flex-col grid-cols-1 gap-4">
       <div className="border rounded-md dark:bg-gray-950 dark:border-gray-800 p-4 w-full h-min">
@@ -28,5 +28,7 @@ export default function Dashboard() {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default Dashboard;

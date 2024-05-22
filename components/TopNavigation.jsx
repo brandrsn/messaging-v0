@@ -1,8 +1,8 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { FaBell, FaMountain } from "react-icons/fa"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { FaBell, FaMountain } from "react-icons/fa";
 
-export default function TopNavigation() {
+const TopNavigation = () => {
   return (
     <header className="flex h-16 items-center justify-between border-b bg-white px-6 dark:border-gray-800 dark:bg-gray-950">
       <div className="flex items-center gap-4">
@@ -64,5 +64,7 @@ export default function TopNavigation() {
         </Button>
       </div>
     </header>
-  )
-}
+  );
+};
+
+export default TopNavigation;

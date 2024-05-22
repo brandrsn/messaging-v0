@@ -2,7 +2,7 @@ import Link from "next/link";
 import { CollapsibleTrigger, CollapsibleContent, Collapsible } from "@/components/ui/collapsible";
 import { FaBox, FaChartBar, FaCog, FaGrid, FaChevronRight, FaUser, FaUserPlus, FaUsers } from 'react-icons/fa';
 
-export default function SideNav() {
+const SideNav = () => {
   return (
     <nav className="hidden h-full w-40 flex-col border-r bg-white p-4 dark:border-gray-800 dark:bg-gray-950 md:flex">
       <div className="space-y-4">
@@ -62,4 +62,6 @@ export default function SideNav() {
       </div>
     </nav>
   );
-}
+};
+
+export default SideNav;
