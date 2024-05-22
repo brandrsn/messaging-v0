@@ -24,12 +24,13 @@ To read more about using these font, please visit the Next.js documentation:
   --radius: 0.25rem;
 }
 **/
+import Link from "next/link";
 import { Layout } from "@/components/layout";
 import {
   CollapsibleTrigger,
   CollapsibleContent,
   Collapsible,
-} from "@/components/ui/collapsible"
+} from "@/components/ui/collapsible";
 
 export function Dashboard() {
   return (
