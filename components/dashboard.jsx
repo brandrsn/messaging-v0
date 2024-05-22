@@ -153,7 +153,7 @@ export function Dashboard() {
             </Link>
           </div>
         </nav>
-        <main className="w-full flex-1 flex flex-col gap-6 p-4 md:grid md:grid-cols-8 md:gap-2">
+        <main className="w-full flex-1 flex flex-col gap-6 p-4 md:grid md:grid-cols-8 md:gap-2 h-auto">
           <div className="border rounded-md dark:bg-gray-950 dark:border-gray-800 p-4 w-full md:col-span-8 h-min">
             <h2 className="text-2xl font-bold mb-2">
               Welcome to the Dashboard
