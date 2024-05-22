@@ -153,8 +153,8 @@ export function Dashboard() {
             </Link>
           </div>
         </nav>
-        <main className="w-full flex-1 flex flex-col gap-6 p-4 md:grid md:grid-cols-8 md:gap-2">
-          <div className="border rounded-md dark:bg-gray-950 dark:border-gray-800 p-4 w-full md:col-span-8">
+        <main className="w-full flex-1 flex flex-col gap-6 p-4 md:grid md:grid-cols-8 md:gap-2 h-auto">
+          <div className="border rounded-md dark:bg-gray-950 dark:border-gray-800 p-4 w-full md:col-span-8 h-auto">
             <h2 className="text-2xl font-bold mb-2">
               Welcome to the Dashboard
             </h2>
@@ -162,19 +162,19 @@ export function Dashboard() {
               Explore the key metrics and insights for your business.
             </p>
           </div>
-          <div className="border rounded-md bg-white p-4 dark:bg-gray-950 dark:border-gray-800 md:col-span-1">
+          <div className="border rounded-md bg-white p-4 dark:bg-gray-950 dark:border-gray-800 md:col-span-1 h-auto">
             <h4 className="text-lg font-bold mb-2">Column 1</h4>
             <p className="text-gray-500 dark:text-gray-400">
               Content for column 1.
             </p>
           </div>
-          <div className="border rounded-md bg-white p-4 dark:bg-gray-950 dark:border-gray-800 md:col-span-1">
+          <div className="border rounded-md bg-white p-4 dark:bg-gray-950 dark:border-gray-800 md:col-span-1 h-auto">
             <h4 className="text-lg font-bold mb-2">Column 2</h4>
             <p className="text-gray-500 dark:text-gray-400">
               Content for column 2.
             </p>
           </div>
-          <div className="border rounded-md bg-white p-4 dark:bg-gray-950 dark:border-gray-800 md:col-span-6">
+          <div className="border rounded-md bg-white p-4 dark:bg-gray-950 dark:border-gray-800 md:col-span-6 h-auto">
             <h4 className="text-lg font-bold mb-2">Column 3</h4>
             <p className="text-gray-500 dark:text-gray-400">
               Content for column 3.
