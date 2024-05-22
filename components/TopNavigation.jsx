@@ -1,14 +1,14 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { FaBell, FaMountain } from "react-icons/fa";
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { FaBell, FaMountain } from "react-icons/fa"
 
-const TopNavigation = () => {
+export default function TopNavigation() {
   return (
     <header className="flex h-16 items-center justify-between border-b bg-white px-6 dark:border-gray-800 dark:bg-gray-950">
       <div className="flex items-center gap-4">
         <Link className="flex items-center gap-2" href="#">
           <FaMountain className="h-6 w-6" />
-          <span className="text-lg font-bold">Acme SaaS</span>
+          <span className="text-lg font-bold">Gecko LPs</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           <Link
@@ -64,7 +64,5 @@ const TopNavigation = () => {
         </Button>
       </div>
     </header>
-  );
-};
-
-export default TopNavigation;
+  )
+}

@@ -1,7 +1,5 @@
-import Dashboard from "@/components/dashboard";
+import Dashboard from "../components/dashboard"
 
-const Home = () => {
-  return <Dashboard />;
-};
-
-export default Home;
+export default function Home() {
+  return <Dashboard />
+}
