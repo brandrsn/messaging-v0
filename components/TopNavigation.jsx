@@ -1,7 +1,6 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { FaBell, FaGrid, FaUsers, FaBox, FaChartBar, FaCog } from "react-icons/fa";
-import { FaMountain } from "react-icons/fa";
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { FaBell, FaMountain } from "react-icons/fa"
 
 export default function TopNavigation() {
   return (
@@ -65,5 +64,5 @@ export default function TopNavigation() {
         </Button>
       </div>
     </header>
-  );
+  )
 }

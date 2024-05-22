@@ -1,22 +1,4 @@
-import Link from "next/link"
-import {
-  CollapsibleTrigger,
-  CollapsibleContent,
-  Collapsible,
-} from "@/components/ui/collapsible"
-import {
-  FaBell,
-  FaBox,
-  FaChartBar,
-  FaCog,
-  FaGrid,
-  FaChevronRight,
-  FaUser,
-  FaUserPlus,
-  FaUsers,
-} from "react-icons/fa"
-
-export function Dashboard() {
+export default function Dashboard() {
   return (
     <div className="w-full p-4 h-full flex-1 flex flex-col grid-cols-1 gap-4">
       <div className="border rounded-md dark:bg-gray-950 dark:border-gray-800 p-4 w-full h-min">
