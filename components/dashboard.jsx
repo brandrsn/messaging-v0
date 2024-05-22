@@ -162,20 +162,20 @@ export function Dashboard() {
               Explore the key metrics and insights for your business.
             </p>
           </div>
-          <div className="w-full h-full flex-1 flex flex-col gap-6 md:grid md:grid-cols-8 md:gap-3">
-            <div className="border rounded-md bg-white p-4 dark:bg-gray-950 dark:border-gray-800 md:col-span-1 h-full">
+          <div className="w-full h-full flex-1 flex flex-col gap-6 md:grid md:grid-cols-8 md:gap-2">
+            <div className="border rounded-md bg-white p-3 dark:bg-gray-950 dark:border-gray-800 md:col-span-1 h-full">
               <h4 className="text-lg font-bold mb-2">Column 1</h4>
               <p className="text-gray-500 dark:text-gray-400">
                 Content for column 1.
               </p>
             </div>
-            <div className="border rounded-md bg-white p-4 dark:bg-gray-950 dark:border-gray-800 md:col-span-1 h-full">
+            <div className="border rounded-md bg-white p-3 dark:bg-gray-950 dark:border-gray-800 md:col-span-1 h-full">
               <h4 className="text-lg font-bold mb-2">Column 2</h4>
               <p className="text-gray-500 dark:text-gray-400">
                 Content for column 2.
               </p>
             </div>
-            <div className="border rounded-md bg-white p-4 dark:bg-gray-950 dark:border-gray-800 md:col-span-6 h-full">
+            <div className="border rounded-md bg-white p-3 dark:bg-gray-950 dark:border-gray-800 md:col-span-6 h-full">
               <h4 className="text-lg font-bold mb-2">Column 3</h4>
               <p className="text-gray-500 dark:text-gray-400">
                 Content for column 3.
