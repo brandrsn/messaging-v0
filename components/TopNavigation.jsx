@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { FaBell } from "react-icons/fa";
+import { FaBell, FaGrid, FaUsers, FaBox, FaChartBar, FaCog } from "react-icons/fa";
 
 export default function TopNavigation() {
   return (
