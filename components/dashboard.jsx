@@ -1,10 +1,7 @@
 import Link from "next/link"
 import { Layout } from "@/components/layout"
-import {
-  CollapsibleTrigger,
-  CollapsibleContent,
-  Collapsible,
-} from "@/components/ui/collapsible"
+import { CollapsibleTrigger, CollapsibleContent, Collapsible } from "@/components/ui/collapsible";
+import { FaBell, FaBox, FaChartBar, FaCog, FaGrid, FaChevronRight, FaUser, FaUserPlus, FaUsers } from 'react-icons/fa';
 
 export function Dashboard() {
   return (
@@ -16,30 +13,30 @@ export function Dashboard() {
               className="flex items-center gap-2 rounded-md py-2 px-3 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800"
               href="#"
             >
-              <LayoutGridIcon className="h-5 w-5" />
+              <FaGrid className="h-5 w-5" />
               Dashboard
             </Link>
             <Collapsible className="space-y-1">
               <CollapsibleTrigger className="flex items-center justify-between rounded-md py-2 px-3 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800">
                 <div className="flex items-center gap-2">
-                  <UsersIcon className="h-5 w-5" />
+                  <FaUsers className="h-5 w-5" />
                   Customers
                 </div>
-                <ChevronRightIcon className="h-5 w-5 transition-transform group-[data-state=open]:rotate-90" />
+                <FaChevronRight className="h-5 w-5 transition-transform group-[data-state=open]:rotate-90" />
               </CollapsibleTrigger>
               <CollapsibleContent className="space-y-1 pl-6">
                 <Link
                   className="flex items-center gap-2 rounded-md py-1 px-2 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800"
                   href="#"
                 >
-                  <UserIcon className="h-4 w-4" />
+                  <FaUser className="h-4 w-4" />
                   All Customers
                 </Link>
                 <Link
                   className="flex items-center gap-2 rounded-md py-1 px-2 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800"
                   href="#"
                 >
-                  <UserPlusIcon className="h-4 w-4" />
+                  <FaUserPlus className="h-4 w-4" />
                   New Customer
                 </Link>
               </CollapsibleContent>
@@ -48,21 +45,21 @@ export function Dashboard() {
               className="flex items-center gap-2 rounded-md py-2 px-3 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800"
               href="#"
             >
-              <BoxIcon className="h-5 w-5" />
+              <FaBox className="h-5 w-5" />
               Products
             </Link>
             <Link
               className="flex items-center gap-2 rounded-md py-2 px-3 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800"
               href="#"
             >
-              <BarChartIcon className="h-5 w-5" />
+              <FaChartBar className="h-5 w-5" />
               Analytics
             </Link>
             <Link
               className="flex items-center gap-2 rounded-md py-2 px-3 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800"
               href="#"
             >
-              <CogIcon className="h-5 w-5" />
+              <FaCog className="h-5 w-5" />
               Settings
             </Link>
           </div>
