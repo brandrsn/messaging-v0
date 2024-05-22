@@ -4,9 +4,7 @@ import { FaBell, FaBox, FaChartBar, FaCog, FaGrid, FaChevronRight, FaUser, FaUse
 
 export function Dashboard() {
   return (
-    <div className="flex flex-1">
-      <SideNav />
-      <main className="w-full p-4 h-full flex-1 flex flex-col grid-cols-1 gap-4">
+    <div className="w-full p-4 h-full flex-1 flex flex-col grid-cols-1 gap-4">
         <div className="border rounded-md dark:bg-gray-950 dark:border-gray-800 p-4 w-full h-min">
           <h2 className="text-2xl font-bold mb-2">
             Welcome to the Dashboard
