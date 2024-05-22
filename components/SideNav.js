@@ -5,7 +5,7 @@ import {
   CollapsibleContent,
 } from "./ui/collapsible"
 
-import { FaBox, FaChartBar, FaCog } from "react-icons/fa"
+import { FaBox, FaChartBar, FaCog, FaChevronRight, FaUserPlus } from "react-icons/fa"
 
 export default function SideNav() {
   return (
@@ -24,7 +24,7 @@ export default function SideNav() {
               <FaCog className="h-5 w-5" />
               Customers
             </div>
-            <ChevronRightIcon className="h-5 w-5 transition-transform group-[data-state=open]:rotate-90" />
+            <FaChevronRight className="h-5 w-5 transition-transform group-[data-state=open]:rotate-90" />
           </CollapsibleTrigger>
           <CollapsibleContent className="space-y-1 pl-6">
             <Link
@@ -38,7 +38,7 @@ export default function SideNav() {
               className="flex items-center gap-2 rounded-md py-1 px-2 text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-800"
               href="#"
             >
-              <UserPlusIcon className="h-4 w-4" />
+              <FaUserPlus className="h-4 w-4" />
               New Customer
             </Link>
           </CollapsibleContent>
