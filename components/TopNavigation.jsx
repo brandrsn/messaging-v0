@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { FaBell, FaGrid, FaUsers, FaBox, FaChartBar, FaCog } from "react-icons/fa";
+import MountainIcon from "@/components/icons/MountainIcon";
 
 export default function TopNavigation() {
   return (
