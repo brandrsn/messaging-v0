@@ -24,8 +24,7 @@ To read more about using these font, please visit the Next.js documentation:
   --radius: 0.25rem;
 }
 **/
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
+import { Layout } from "@/components/layout";
 import {
   CollapsibleTrigger,
   CollapsibleContent,
@@ -34,67 +33,7 @@ import {
 
 export function Dashboard() {
   return (
-    <div key="1" className="flex h-screen w-full flex-col">
-      <header className="flex h-16 items-center justify-between border-b bg-white px-6 dark:border-gray-800 dark:bg-gray-950">
-        <div className="flex items-center gap-4">
-          <Link className="flex items-center gap-2" href="#">
-            <MountainIcon className="h-6 w-6" />
-            <span className="text-lg font-bold">Acme SaaS</span>
-          </Link>
-          <nav className="hidden md:flex items-center gap-6">
-            <Link
-              className="text-sm font-medium hover:underline underline-offset-4"
-              href="#"
-            >
-              Dashboard
-            </Link>
-            <Link
-              className="text-sm font-medium hover:underline underline-offset-4"
-              href="#"
-            >
-              Customers
-            </Link>
-            <Link
-              className="text-sm font-medium hover:underline underline-offset-4"
-              href="#"
-            >
-              Products
-            </Link>
-            <Link
-              className="text-sm font-medium hover:underline underline-offset-4"
-              href="#"
-            >
-              Analytics
-            </Link>
-            <Link
-              className="text-sm font-medium hover:underline underline-offset-4"
-              href="#"
-            >
-              Settings
-            </Link>
-          </nav>
-        </div>
-        <div className="flex items-center gap-4">
-          <Button className="rounded-full" size="icon" variant="ghost">
-            <BellIcon className="h-5 w-5" />
-            <span className="sr-only">Notifications</span>
-          </Button>
-          <Button className="rounded-full" size="icon" variant="ghost">
-            <img
-              alt="Avatar"
-              className="rounded-full"
-              height="32"
-              src="/placeholder.svg"
-              style={{
-                aspectRatio: "32/32",
-                objectFit: "cover",
-              }}
-              width="32"
-            />
-            <span className="sr-only">User menu</span>
-          </Button>
-        </div>
-      </header>
+    <Layout>
       <div className="flex flex-1">
         <nav className="hidden h-full w-40 flex-col border-r bg-white p-4 dark:border-gray-800 dark:bg-gray-950 md:flex">
           <div className="space-y-4">
@@ -184,7 +123,7 @@ export function Dashboard() {
           </div>
         </main>
       </div>
-    </div>
+    </Layout>
   )
 }
 
